@@ -1,5 +1,5 @@
 # NorthWatch Custom Domain
-Setup a Custom Domain on NorthWatch with FREE SSL and Hosting!
+Setup a Custom Domain on NorthWatch with FREE SSL and Hosting!  You need NorthWatch PRO to change the bank name once logged in, but this will allow you to purchase a domain (or get a free domain) and set it up with NorthWatch.
 
 ## Setp 1
 Fork this repository using the "Fork" button towards the top right-hand corner of the screen.
