@@ -23,6 +23,7 @@ Create these DNS records on your website depending if you want to route NorthWat
 | Record Type | Value                | TTL (Time to Live) |
 |-------------|----------------------|--------------------|
 | CNAME       | [USERNAME].github.io | Auto               |
+
 Be sure to replace [USERNAME] with your GitHub username.
 ## Step 5
 You should be done!  All you need to do is go to the GitHub Pages section of your repository settings and wait for the SSL certificate to issue, and enable it!
