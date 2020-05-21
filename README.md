@@ -13,17 +13,17 @@ In the "Custom Domain" text box, enter your domain name.
 ## Step 4
 Create these DNS records on your website depending if you want to route NorthWatch to the root of your domain (xxx.com), or a subdomain (yyy.xxx.com).
 ### Root of Domain (xxx.com)
-| Record Type | Value           | TTL (Time to Live) |
-|-------------|-----------------|--------------------|
-| A           | 185.199.108.153 | Auto               |
-| A           | 185.199.109.153 | Auto               |
-| A           | 185.199.110.153 | Auto               |
-| A           | 185.199.111.153 | Auto               |
+| Record Type | Name | Value           | TTL (Time to Live) |
+|-------------|------|-----------------|--------------------|
+| A           | @    | 185.199.108.153 | Auto               |
+| A           | @    | 185.199.109.153 | Auto               |
+| A           | @    | 185.199.110.153 | Auto               |
+| A           | @    | 185.199.111.153 | Auto               |
 ### Subdomain (yyy.xxx.com)
-| Record Type | Value                | TTL (Time to Live) |
-|-------------|----------------------|--------------------|
-| CNAME       | [USERNAME].github.io | Auto               |
+| Record Type | Name       | Value                | TTL (Time to Live) |
+|-------------|------------|----------------------|--------------------|
+| CNAME       | [SUBDOMAIN]| [USERNAME].github.io | Auto               |
 
-Be sure to replace [USERNAME] with your GitHub username.
+Be sure to replace [USERNAME] with your GitHub username and replace [SUBDOMAIN] with the subdomain you want (the "yyy" part of the example in the header of this section).
 ## Step 5
 You should be done!  All you need to do is go to the GitHub Pages section of your repository settings and wait for the SSL certificate to issue, and enable it!
