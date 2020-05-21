@@ -14,7 +14,7 @@ I appoolgise if you were looking for a way to self-host NorthWatch, since that i
 Fork this repository using the "Fork" button towards the top right-hand corner of the screen.
 
 ## Step 2
-Go to the settings menu of your newly-forked version of this repository, and scroll down to the "GitHub Pages" section.  Select "master branch" for source.
+Go to the settings page of your newly-forked version of this repository (there should be a "Settings" tab towards the top of the screen when you scroll up to the top of your repository), and scroll down to the "GitHub Pages" section.  Select "master branch" for source.
 
 ## Step 3
 In the "Custom Domain" text box, enter your domain name.
